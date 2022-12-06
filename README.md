@@ -33,11 +33,11 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_private_cidr"></a> [private\_cidr](#input\_private\_cidr) | n/a | `string` | `"10.0.0.192/26"` | no |
-| <a name="input_private_failover_cidr"></a> [private\_failover\_cidr](#input\_private\_failover\_cidr) | n/a | `string` | `"10.0.2.0/24"` | no |
-| <a name="input_public_cidr"></a> [public\_cidr](#input\_public\_cidr) | n/a | `string` | `"10.0.0.128/26"` | no |
-| <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | n/a | `string` | `"10.0.0.0/16"` | no |
-| <a name="input_vpc_name"></a> [vpc\_name](#input\_vpc\_name) | n/a | `string` | n/a | yes |
+| <a name="input_private_cidr"></a> [private\_cidr](#input\_private\_cidr) | CIDR range for private subnet | `string` | `"10.0.0.192/26"` | no |
+| <a name="input_private_failover_cidr"></a> [private\_failover\_cidr](#input\_private\_failover\_cidr) | CIDR range for private failover subnet | `string` | `"10.0.2.0/24"` | no |
+| <a name="input_public_cidr"></a> [public\_cidr](#input\_public\_cidr) | CIDR range for public subnet | `string` | `"10.0.0.128/26"` | no |
+| <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | CIDR range for new vpc | `string` | `"10.0.0.0/16"` | no |
+| <a name="input_vpc_name"></a> [vpc\_name](#input\_vpc\_name) | Name of the vpc network | `string` | n/a | yes |
 
 ## Outputs
 
