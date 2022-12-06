@@ -43,5 +43,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_failover_private_subnet_id"></a> [failover\_private\_subnet\_id](#output\_failover\_private\_subnet\_id) | n/a |
 | <a name="output_network_id"></a> [network\_id](#output\_network\_id) | n/a |
+| <a name="output_private_subnet_id"></a> [private\_subnet\_id](#output\_private\_subnet\_id) | n/a |
 <!-- END_TF_DOCS -->
