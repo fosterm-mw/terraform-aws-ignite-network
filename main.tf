@@ -92,7 +92,7 @@ resource "aws_route_table" "private-rt" {
   }
   
   depends_on = [
-    aws_vpc.network
+    aws_vpc.network,
     aws_nat_gateway.NATGW,
   ]
 }
